@@ -53,7 +53,7 @@ The trained models can be found on the google drive link: https://drive.google.c
 
 #Results
 In the figure below, we show a representative slice from the dataset. The first panel is the original cardiac MRI, followed by the ground truth labels annotated by experts. The third panel shows the U-Net segmentation output, which closely matches the true labels. The last panel highlights the error map, where only small boundary-level differences are observed. This indicates that the model has learned to capture both the shape and boundary of the myocardium and ventricles with high accuracy.
-<img src="output.png" title="Result- Normal Patient>
+<img src="output.png" title="Result- Normal Patient">
 
 
 And the below image represents the dice coefficient values of the above slice from the dataset which is to be of the patient 44 from the testing dataset.
